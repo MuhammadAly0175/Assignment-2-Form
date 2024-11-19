@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Assignment 2 (Form)</title>
+</head>
+
+<body>
+  <form>
+    <fieldset style="background:rgb(163,43,45); font-family: arial;">
+      <legend style="background:rgb(67,125,173);">Personal Data</legend>
+      <br>
+      <br>
+      <fieldset style="background:rgb(217,165,30);">
+        <legend style="background:rgb(98,149,235);">Your Name</legend>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table>
+          <tr>
+            <td><label for="firstName">first name</label></td>
+            <td>:</td>
+            <td><input type="text" id="firstName" name="firstName" placeholder="ex ahmed"></td>
+          </tr>
+          <tr>
+            <td><label for="secondName">second name</label></td>
+            <td>:</td>
+            <td><input type="text" id="secondName" name="secondName" placeholder="ex bahnasy"></td>
+          </tr>
+        </table>
+      </fieldset>
+      <br>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td><label for="phoneNumber"><b>your phone</b></label></td>
+          <td><b>:</b></td>
+          <td><input type="number" id="phoneNumber" name="phoneNumber"></td>
+        </tr>
+        <tr>
+          <td><label for="Email"><b>Email</b></label></td>
+          <td><b>:</b></td>
+          <td><input type="email" id="Email" name="Email"></td>
+        </tr>
+        <tr>
+          <td><label for="password"><b>password</b></label></td>
+          <td><b>:</b></td>
+          <td><input type="password" id="password" name="password"></td>
+        </tr>
+        <tr>
+          <td><label for="re-password"><b>re-password</b></label></td>
+          <td><b>:</b></td>
+          <td><input type="password" id="re-password" name="re-password"></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td><input type="radio" name="gender" value="male" id="male"></td>
+          <td><label for="male">Male</label></td>
+        </tr>
+        <tr>
+          <td><input type="radio" name="gender" value="female" id="female"></td>
+          <td><label for="female">Female</label></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <table>
+        <tr>
+          <td><input type="checkbox" name="status" value="student" id="student"></td>
+          <td><label for="student">Student</label></td>
+        </tr>
+        <tr>
+          <td><input type="checkbox" name="status" value="graduated" id="graduated"></td>
+          <td><label for="graduated">Graduated</label></td>
+        </tr>
+      </table>
+      <br>
+      <br>
+      <br>
+      <select name="motorcycleBrands">
+        <optgroup label="Japanese Motorcycles">
+          <option value="Honda">Honda</option>
+          <option value="Yamaha">Yamaha</option>
+          <option value="Suzuki">Suzuki</option>
+          <option value="Kawasaki">Kawasaki</option>
+        </optgroup>
+        <optgroup label="German Motorcycles">
+          <option value="BMW">BMW</option>
+          <option value="KTM">KTM</option>
+        </optgroup>
+        <optgroup label="Italic Motorcycles" disabled>
+          <option value="Ducati">Ducati</option>
+          <option value="Piaggio">Piaggio</option>
+          <option value="Aprilia">Aprilia</option>
+        </optgroup>
+      </select>
+      <br>
+      <input type="image" src="./submit.png" alt="submit">
+    </fieldset>
+  </form>
+</body>
+
+</html>
